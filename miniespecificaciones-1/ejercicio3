@@ -1,0 +1,22 @@
+Calcular el costo de un terreno, a partir de sus dimensiones y el costo por metro
+	cuadrado. Lo curioso es que largo del terreno siempre es 100
+
+Inicio
+
+largo, d[0,n] <-- 100
+ancho, d[0,n]
+costometrocuadrado d[0,n]
+costoterreno, d [0,n]
+
+Entradas
+Escribir " Ingrese el ancho del terreno"
+Leer ancho
+Escribir " Ingrese el costo por metro cuadrado"
+Leer costometrocuadrado
+
+Procesos
+area <-- largo * ancho
+costoterreno <-- area * costometrocuadrado
+
+Salida
+Escribir " El costo del terreno es (costoterreno)
